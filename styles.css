@@ -1,0 +1,50 @@
+.t {
+    background-color: green;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.top img {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    width: 35%;
+    height: 50%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.top h1 {
+    position: absolute;
+    top: 22%;
+    left: 40%;
+    font-size: 2em;
+}
+
+.top h2 {
+    position: absolute;
+    top: 28%;
+    left: 40%;
+    font-size: 1.5em;
+}
+
+.top p {
+    position: absolute;
+    top: 42%;
+    left: 20%;
+    font-size: 1.9em;
+    font-family: sans-serif;
+    color: white;
+}
+
+.top .special {
+    position: absolute;
+    top: 55%;
+    left: 55%;
+    font-size: 3.9em;
+    font-family: sans-serif;
+    color: yellow;
+}
